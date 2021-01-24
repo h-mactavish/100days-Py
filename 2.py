@@ -11,3 +11,5 @@ print(type(strign))
 a = float(123)
 print(70+a)
 print(str(70)+str(a))
+
+print(3*3+3/3-3)
