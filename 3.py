@@ -15,6 +15,3 @@ if height >= 120:
         print("Please pay $12")
 else:
     print("\nSorry you need to grow taller before you can ride")
-
-
-# Nested if else if
