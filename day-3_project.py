@@ -31,7 +31,7 @@ elif(start == "left"):
     start = input("Swim or Wait")
     if(start == "swim"):
         print("Attack bya trout \nGAME OVER")
-    elif(start == wait):
+    elif(start == "wait"):
         start = input("Which door")
         if(start == "red"):
             print("Burned by fire \n GAME OVER")
