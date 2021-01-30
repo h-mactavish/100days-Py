@@ -34,7 +34,7 @@ choices = [rock, paper, scissors]
 cpu_choice = random.randint(0, 2)
 
 user_choice = int(
-    input("What do you choose? Type 0 for Rock,1 for Paper or 2 for Scissors"))
+    input("What do you choose? Type 0 for Rock,1 for Paper or 2 for Scissors : "))
 print(choices[user_choice])
 
 print("CPU choose: \n")
