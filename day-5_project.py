@@ -32,4 +32,4 @@ for c in stri:
 random.shuffle(list_r)
 
 
-print(''.join(list_r))
+print("Your pass is : "+''.join(list_r))
