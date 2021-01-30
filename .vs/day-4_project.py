@@ -72,7 +72,7 @@ elif (cpu_choice > user_choice):
     print("You Lose")
 
 elif (user_choice > cpu_choice):
-    print("You Lose")
+    print("You Win")
 
 elif (cpu_choice == user_choice):
     print("Its a draw")
