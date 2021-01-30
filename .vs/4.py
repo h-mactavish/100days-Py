@@ -1,7 +1,15 @@
 # Day 4 - Exercises
 
-import random
+# import random
 
-c = random.random()
+# c = random.random()
 
-print(c)
+# print(c)
+
+
+states_list = ["delaware", "washington"]
+
+states_list.append("Bachmanity")
+
+states_list.extend(["maciland", "trackliad"])
+print(states_list)

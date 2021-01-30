@@ -1,0 +1,1 @@
+print(names[random_pick])
