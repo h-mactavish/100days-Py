@@ -1,4 +1,4 @@
-import art
+from . import art
 
 
 alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y',
@@ -34,4 +34,5 @@ while True:
     if continu_p == "yes":
         continue
     elif continu_p == "no":
+        print("GoodBye")
         break
