@@ -3,13 +3,13 @@ import math
 
 
 def prime_checker(number):
-    flag = False
+    is_prime = False
     for i in range(2, number):
         if (number % i == 0):
-            flag = True
+            is_prime = True
         else:
-            flag-False
-    if flag == False:
+            is_prime-False
+    if is_prime == False:
         print("It's a prime number")
     else:
         print("It's not a prime number")
